@@ -2,13 +2,23 @@ html {
   font-family: Helvetica;
 }
 
-header {
+header,
+#section-break {
   color: white;
+  text-align: center;
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+a {
+  color: white;
+  font-size: 18px;
+}
+
+.center-section,
+.bottom-section {
   text-align: center;
 }
 
-
-#section-break,
 footer {
   background-image: url("../images/the-flatiron-building.png");
 }
